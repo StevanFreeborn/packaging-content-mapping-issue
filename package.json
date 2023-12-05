@@ -1,7 +1,9 @@
 {
   "name": "packaging-content-mapping-issue",
   "scripts": {
-    "test": "playwright test"
+    "playwright:install": "playwright install",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed"
   },
   "devDependencies": {
     "@playwright/test": "^1.40.1",

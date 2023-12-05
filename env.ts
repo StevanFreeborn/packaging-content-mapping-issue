@@ -13,6 +13,7 @@ const expectedEnv = {
   TARGET_INSTANCE_SYS_ADMIN_PASSWORD:
     process.env.TARGET_INSTANCE_SYS_ADMIN_PASSWORD,
   TARGET_INSTANCE_SYS_ADMIN_EMAIL: process.env.TARGET_INSTANCE_SYS_ADMIN_EMAIL,
+  TOTAL_MAPPINGS_TO_CREATE: process.env.TOTAL_MAPPINGS_TO_CREATE ?? '2',
 };
 
 type ExpectedEnvKeys = keyof typeof expectedEnv;
